@@ -129,7 +129,7 @@
             var pilihan = select_kopi.value
             var template = ""
 
-            $.getJSON(sumber2).then(function (data) {
+            $.getJSON(sumber).then(function (data) {
                 var data_kopi = data[pilihan]
 
                 data_kopi.forEach(item => {
