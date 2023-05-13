@@ -8,7 +8,7 @@
     <link rel="shortcut icon" href="images/favicon/favicon.ico" type="image/x-icon">
     <title>Produk</title>
     <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="vendor/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="vendor/bootstrap/bootstrap.litera.css">
     <link rel="stylesheet" href="vendor/bootstrap/bootstrap-icons.css">
     <script src="vendor/bootstrap/bootstrap.bundle.min.js"></script>
     <style>
@@ -129,7 +129,7 @@
             var pilihan = select_kopi.value
             var template = ""
 
-            $.getJSON(sumber2).then(function (data) {
+            $.getJSON(sumber).then(function (data) {
                 var data_kopi = data[pilihan]
 
                 data_kopi.forEach(item => {
